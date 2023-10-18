@@ -2,8 +2,8 @@
 title: Hello, World!
 author: Lin Bing
 date: 2023-10-18 12:15:00 +0800
-categories: [Blogging, Demo]
-tags: [typography]
+categories: [Testing]
+tags: [testing]
 pin: true
 math: true
 mermaid: true
@@ -11,7 +11,7 @@ mermaid: true
 
 This is my first post adapted from Chirpy - Text and Typography.
 
-## Headings
+## Hello, World!
 
 # H1 - heading
 {: .mt-4 .mb-0 }
@@ -146,6 +146,3 @@ $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
   cherry :active, c, after b a, 1d
 ```
 
-## Video
-
-{% include embed/youtube.html id='dQw4w9WgXcQ' %}
