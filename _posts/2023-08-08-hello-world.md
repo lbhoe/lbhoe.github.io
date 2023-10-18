@@ -5,4 +5,9 @@ categories: [Testing]
 tags: [testing]
 ---
 ## Hello, World!
+
 This is a test post.
+
+## Video
+
+{% include embed/youtube.html id='dQw4w9WgXcQ' %}
