@@ -10,4 +10,4 @@ This is a test post.
 
 ## Video
 
-{% include embed/youtube.html id='dQw4w9WgXcQ' %}
+<iframe width="826" height="464" src="https://www.youtube.com/embed/GaPZEJfAB24" title="Challenge of Wits | Challenge 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
