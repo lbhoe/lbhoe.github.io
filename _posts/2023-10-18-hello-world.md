@@ -1,7 +1,7 @@
 ---
 title: Hello, World!
 author: Lin Bing
-date: 2023-10-19 12:15:00 +0800
+date: 2023-10-18 12:15:00 +0800
 categories: [Blogging, Demo]
 tags: [typography]
 pin: true
