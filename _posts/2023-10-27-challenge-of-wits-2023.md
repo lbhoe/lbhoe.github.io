@@ -21,9 +21,9 @@ signals being reflected off buildings), we need to add a buffer on top of the pe
 height limit to ensure that drones flying over the height limit are correctly identified as 
 errant drones.
 >
->Given that the GPS height positioning accuracy is 13m at `95%` confidence and the error 
+>Given that the GPS height positioning accuracy is 13m at 95% confidence and the error 
 mean is 0, using Confidence Interval Formula to solve this question, what buffer would 
-you recommend to have a false positive rate of `0.15%`?
+you recommend to have a false positive rate of 0.15%?
 
 ### SOLUTION 1
 
@@ -39,14 +39,13 @@ Refer to Standard Normal Distribution Table.
 
 ![image](/assets/img/challenge_of_wits_2023/5399a23976089051cb4834f87dc700665d48d04d90cf8e8b17b416428ff4c286.png)  
 
-For false positive rate of `0.15%`, look up 0.9985 in the table. 
+For false positive rate of 0.15%, look up 0.9985 in the table. 
 
-```
 The Z-Score is 2.9 (from left of table) + 0.07 (from top of table), which is 2.97.
-Plugging Z-score = 2.97 and `s/(n^0.5)` = 6.63265 into the CI Formula, CI = 2.97*6.63265 = 19.69897 (5dp).
-```
 
-Therefore, to identify errant drones with a false positive rate of `0.15%` under the circumstances that GPS height positioning accuracy is 13m at `95%` confidence and the error mean is 0, the buffer zone needs to be plus 19.69897m from permitted height.
+Plugging Z-score = 2.97 and `s/(n^0.5)` = 6.63265 into the CI Formula, CI = 2.97*6.63265 = 19.69897 (5dp).
+
+Therefore, to identify errant drones with a false positive rate of 0.15% under the circumstances that GPS height positioning accuracy is 13m at 95% confidence and the error mean is 0, the buffer zone needs to be plus 19.69897m from permitted height.
 
 Round off answer in metres to nearest whole number means answer is 20.
 
