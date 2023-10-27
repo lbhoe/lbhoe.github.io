@@ -25,7 +25,7 @@ errant drones.
 mean is 0, using Confidence Interval Formula to solve this question, what buffer would 
 you recommend to have a false positive rate of 0.15%?
 
-### SOLUTION 1
+### SOLUTION
 
 The following screenshot shows the Confidence Interval (CI) Formula.
 
@@ -67,7 +67,7 @@ APOCALYPSE used a 2D shape as their secret key.
 >- Hint 1: Download `Logs.zip` from the challenge website.
 >- Hint 2: Write a script to solve the challenge.
 
-### SOLUTION 2
+### SOLUTION
 
 Checked the logs and they are mostly gibberish. The only field that stands out is `location`.
 
@@ -156,7 +156,7 @@ The secret key presents itself as A.
 >- Taking a step from (0, 0) which has an elevation of 7.9 to (1, 1) which has an elevation of 8.5 will cost (2^0.5)+6, or roughly 7.41 units.
 >- Taking a step from (0, 0) which has an elevation of 7.9 to (0, -1) which has an elevation of 7.5 will cost 1 unit.
 
-### SOLUTION 3
+### SOLUTION
 
 Did some research before deciding to implement the following steps:
 1. Read `Elevation.csv` data
