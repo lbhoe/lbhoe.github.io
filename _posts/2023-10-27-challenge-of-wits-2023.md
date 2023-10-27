@@ -21,9 +21,9 @@ signals being reflected off buildings), we need to add a buffer on top of the pe
 height limit to ensure that drones flying over the height limit are correctly identified as 
 errant drones.
 >
->Given that the GPS height positioning accuracy is 13m at 95% confidence and the error 
+>Given that the GPS height positioning accuracy is 13m at `95%` confidence and the error 
 mean is 0, using Confidence Interval Formula to solve this question, what buffer would 
-you recommend to have a false positive rate of 0.15%?
+you recommend to have a false positive rate of `0.15%`?
 
 ### SOLUTION 1
 
@@ -31,7 +31,7 @@ The following screenshot shows the Confidence Interval (CI) Formula.
 
 ![image](/assets/img/challenge_of_wits_2023/78a0f61cbd53379a3b51f02cd0530f127282bed8073eef59551884b5d9dd7f0f.png)  
 
-For 95% Confidence Interval, Z-Score is 1.96.
+For `95%` Confidence Interval, Z-Score is 1.96.
 
 Rewriting the formula, `s/(n^0.5)` is given by 13/1.96, which is 6.63265 (5dp).
 
@@ -39,11 +39,14 @@ Refer to Standard Normal Distribution Table.
 
 ![image](/assets/img/challenge_of_wits_2023/5399a23976089051cb4834f87dc700665d48d04d90cf8e8b17b416428ff4c286.png)  
 
-For false positive rate of 0.15%, look up 0.9985 in the table. The Z-Score is 2.9 (from left of table) + 0.07 (from top of table), which is 2.97.
+For false positive rate of `0.15%`, look up 0.9985 in the table. 
 
+```
+The Z-Score is 2.9 (from left of table) + 0.07 (from top of table), which is 2.97.
 Plugging Z-score = 2.97 and `s/(n^0.5)` = 6.63265 into the CI Formula, CI = 2.97*6.63265 = 19.69897 (5dp).
+```
 
-Therefore, to identify errant drones with a false positive rate of 0.15% under the circumstances that GPS height positioning accuracy is 13m at 95% confidence and the error mean is 0, the buffer zone needs to be plus 19.69897m from permitted height.
+Therefore, to identify errant drones with a false positive rate of `0.15%` under the circumstances that GPS height positioning accuracy is 13m at `95%` confidence and the error mean is 0, the buffer zone needs to be plus 19.69897m from permitted height.
 
 Round off answer in metres to nearest whole number means answer is 20.
 
@@ -136,7 +139,7 @@ The secret key presents itself as A.
 
 >For this challenge, we will consider a robot that needs to move from its current position to a goal position across challenging terrain, avoiding obstacles along the way and conserving as much energy as possible.
 >
->Download the elevation map of the terrain `Elevation.csv` from the challenge website to get started. The map is on a grid made out of cells with integer coordinates, where the robot can move from each cell (x, y) to any of its 8 neighbours, (x + a, y + b) where −1 ≤ a ≤ 1, −1 ≤ b ≤ 1, |a| + |b| ≥ 1.
+>Download the elevation map of the terrain `Elevation.csv` from the challenge website to get started. The map is on a grid made out of cells with integer coordinates, where the robot can move from each cell (x, y) to any of its 8 neighbours, (x + a, y + b) where `−1 ≤ a ≤ 1`, `−1 ≤ b ≤ 1`, `|a| + |b| ≥ 1`.
 >
 >The robot starts from (0, 0) . What is the robot’s lowest cost to reach the goal position (90, 50)? Round the lowest cost to 
 1 decimal place.
