@@ -31,7 +31,7 @@ The following screenshot shows the Confidence Interval (CI) Formula.
 
 ![image](/assets/img/challenge_of_wits_2023/78a0f61cbd53379a3b51f02cd0530f127282bed8073eef59551884b5d9dd7f0f.png)  
 
-For `95%` Confidence Interval, Z-Score is 1.96.
+For 95% Confidence Interval, Z-Score is 1.96.
 
 Rewriting the formula, `s/(n^0.5)` is given by 13/1.96, which is 6.63265 (5dp).
 
