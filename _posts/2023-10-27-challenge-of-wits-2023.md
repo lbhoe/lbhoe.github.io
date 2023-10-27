@@ -41,9 +41,9 @@ Refer to Standard Normal Distribution Table.
 
 For false positive rate of 0.15%, look up 0.9985 in the table. 
 
-The Z-Score is 2.9 (from left of table) + 0.07 (from top of table), which is 2.97.
+The Z-Score is 2.9 (from left of table) \+ 0.07 (from top of table), which is 2.97.
 
-Plugging Z-score = 2.97 and `s/(n^0.5)` = 6.63265 into the CI Formula, CI = 2.97*6.63265 = 19.69897 (5dp).
+Plugging Z-score = 2.97 and `s/(n^0.5)` = 6.63265 into the CI Formula, CI = 2.97\*6.63265 = 19.69897 (5dp).
 
 Therefore, to identify errant drones with a false positive rate of 0.15% under the circumstances that GPS height positioning accuracy is 13m at 95% confidence and the error mean is 0, the buffer zone needs to be plus 19.69897m from permitted height.
 
