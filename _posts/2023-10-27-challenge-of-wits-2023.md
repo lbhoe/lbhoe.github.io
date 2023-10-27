@@ -8,7 +8,7 @@ image:
 ---
 For over 6 weeks, Singaporeans with a passion for Science & Technology participated in the Challenge of Wits 2023. More than 1,200 participants tested their intellect by solving challenges created by defence technology experts from DSTA, CSIT, and DSO.
 
-This was a wonderful opportunity to apply various skills I have acquired over the years, such as mathematics, scripting, and the use of LLMs. I had a fantastic time and thoroughly enjoyed the process of solving these challenges.
+This was a great opportunity to apply various skills I have acquired over the years, such as statistics, scripting, and the use of LLMs. I had a fantastic time and thoroughly enjoyed the process of solving these challenges.
 
 ## CHALLENGE 1
 
