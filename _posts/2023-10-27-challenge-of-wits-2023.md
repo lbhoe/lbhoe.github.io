@@ -43,11 +43,11 @@ For false positive rate of 0.15%, look up 0.9985 in the table.
 
 The Z-Score is 2.9 (from left of table) \+ 0.07 (from top of table), which is 2.97.
 
-Plugging Z-score = 2.97 and `s/(n^0.5)` = 6.63265 into the CI Formula, CI = 2.97\*6.63265 = 19.69897 (5dp).
+Plugging Z-score = 2.97 and `s/(n^0.5)` = 6.63265 into the CI Formula, buffer = 2.97\*6.63265 = 19.69897 (5dp).
 
 Therefore, to identify errant drones with a false positive rate of 0.15% under the circumstances that GPS height positioning accuracy is 13m at 95% confidence and the error mean is 0, the buffer zone needs to be plus 19.69897m from permitted height.
 
-Round off answer in metres to nearest whole number means answer is 20.
+Round off answer in meters to nearest whole number means answer is `20`.
 
 ## CHALLENGE 2
 
@@ -69,13 +69,13 @@ APOCALYPSE used a 2D shape as their secret key.
 
 ### SOLUTION
 
-Checked the logs and they are mostly gibberish. The only field that stands out is `location`.
+Checked the logs and they were mostly gibberish. The only field that stood out was `location`.
 
 Used ChatGPT with the following prompts to produce the required python script.
 
 ```
 I need help writing a python script
-Given multiple xml files, i need to extract the x,y coordinates from <location>x,y</location>
+Given multiple xml files, I need to extract the x,y coordinates from <location>x,y</location>
 Instead of printing the coordinates, plot them on a graph
 ```
 
@@ -130,7 +130,7 @@ Placed the python script in the `Logs` folder and ran it.
 
 ![image](/assets/img/challenge_of_wits_2023/1457064b9946dbbd53f0ed1bbab924dcb0a7057fcec309e94b01d9d43eb6c45b.png)  
 
-The secret key presents itself as A.
+The secret key presents itself as `A`.
 
 ## CHALLENGE 3
 
@@ -198,7 +198,7 @@ def dijkstra(graph, start, end):
     else:
         return None
 
-# Given graph
+# Initialize adjacency matrix from elevation map
 graph = {}
 directions = [(x, y) for x in [1, 0, -1] for y in [1, 0, -1] if not (x == 0 and y == 0)]
 with open('Elevation.csv', 'r') as file:
@@ -249,4 +249,4 @@ Ran the python script.
 
 Therefore, the lowest cost is 181.66905 (5dp).
 
-Round off to 1 decimal place means answer is 181.7.
+Round off to 1 decimal place means answer is `181.7`.
