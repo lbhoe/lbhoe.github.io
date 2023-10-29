@@ -248,7 +248,6 @@ if shortest_distance is not None:
     print("Shortest distance from {} to {}:".format(src,dst), shortest_distance)
 else:
     print("There is no path from {} to {}.".format(src,dst))
-
 ```
 
 Ran the python script.
