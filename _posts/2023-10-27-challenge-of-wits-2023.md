@@ -206,7 +206,7 @@ def dijkstra(graph, start, end):
     else:
         return None
 
-# Initialize adjacency matrix from elevation map
+# Initialize adjacency matrix
 graph = {}
 directions = [(x, y) for x in [1, 0, -1] for y in [1, 0, -1] if not (x == 0 and y == 0)]
 with open('Elevation.csv', 'r') as file:
