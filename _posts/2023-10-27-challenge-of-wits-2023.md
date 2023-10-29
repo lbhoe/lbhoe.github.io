@@ -171,7 +171,7 @@ Did some research before deciding to implement the following steps:
 2. Implement weight calculations formula
 3. Store calculated weights in a suitable data format (adjacency matrix)
 4. Apply Dijkstra's Algorithm to find shortest path
-5. Script must work by supplying a start point (x1,y1) and end at a specified (x2,y2)
+5. Script must work by supplying a start point (x,y) and end at a specified (x\',y\')
 
 ChatGPT was used to provide various code snippets to work with.
 
