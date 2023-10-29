@@ -47,7 +47,7 @@ Plugging Z-score = 2.97 and `s/(n^0.5)` = 6.63265 into the CI Formula, buffer = 
 
 Therefore, to identify errant drones with a false positive rate of 0.15% under the circumstances that GPS height positioning accuracy is 13m at 95% confidence and the error mean is 0, the buffer zone needs to be plus 19.69897m from permitted height.
 
-Round off answer in meters to nearest whole number means answer is `20`.
+Round answer in meters to nearest whole number means answer is `20`.
 
 ## CHALLENGE 2\: Data Science
 
@@ -167,15 +167,15 @@ The secret key presents itself as `A`.
 ### SOLUTION
 
 Did some research before deciding to implement the following steps:
-1. Read `Elevation.csv` data
-2. Implement weight calculations formula
-3. Store calculated weights in a suitable data format (adjacency matrix)
-4. Apply Dijkstra's Algorithm to find shortest path
-5. Script must work by supplying a start point (x,y) and end at a specified (x\',y\')
+1. Read the data from `Elevation.csv`
+2. Applied weight calculation formula
+3. Stored calculated weights in an appropriate data format (adjacency matrix)
+4. Utilised Dijkstra's Algorithm to determine the shortest path
+5. Script is designed to function by providing a starting point (x, y) and an ending point (x\', y\')
 
 ChatGPT was used to provide various code snippets to work with.
 
-Due to interesting constraints such as boundaries of map (not all nodes have the same number of edges) and the need to calculate weights (edges have different weights due to elevation differences), I had to manually write some portions of the script.
+Due to interesting constraints such as boundaries of map (not all nodes have the same number of edges) and varying energy costs due to elevation differences (edges have different weights), I had to manually write some portions of the script.
 
 ```python
 import heapq
@@ -256,4 +256,4 @@ Ran the python script.
 
 Therefore, the lowest cost is 181.66905 (5dp).
 
-Round off to 1 decimal place means answer is `181.7`.
+Round to 1 decimal place means answer is `181.7`.
