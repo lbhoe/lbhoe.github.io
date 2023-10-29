@@ -10,7 +10,7 @@ For over 6 weeks, Singaporeans with a passion for Science & Technology participa
 
 This was a great opportunity to apply various skills I have acquired over the years, such as statistics, scripting, and the use of LLMs. I had a fantastic time and thoroughly enjoyed the process of solving these challenges.
 
-## CHALLENGE 1
+## CHALLENGE 1: Command, Control and Communications
 
 {% include embed/youtube.html id='GaPZEJfAB24' %}
 
@@ -49,7 +49,7 @@ Therefore, to identify errant drones with a false positive rate of 0.15% under t
 
 Round off answer in meters to nearest whole number means answer is `20`.
 
-## CHALLENGE 2
+## CHALLENGE 2: Data Science
 
 {% include embed/youtube.html id='9_aZtLtF25w' %}
 
@@ -136,7 +136,7 @@ Placed the python script in the `Logs` folder and ran it.
 
 The secret key presents itself as `A`.
 
-## CHALLENGE 3
+## CHALLENGE 3: Robotic Autonomy
 
 {% include embed/youtube.html id='9Gv_QfP9uRE' %}
 
