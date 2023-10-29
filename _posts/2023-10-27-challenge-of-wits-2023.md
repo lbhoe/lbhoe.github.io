@@ -168,10 +168,10 @@ The secret key presents itself as `A`.
 
 Did some research before deciding to implement the following steps:
 1. Read the data from `Elevation.csv`
-2. Applied weight calculation formula
-3. Stored calculated weights in an appropriate data format (adjacency matrix)
-4. Utilised Dijkstra's Algorithm to determine the shortest path
-5. Script is designed to function by providing a starting point (x, y) and an ending point (x\', y\')
+2. Apply weight calculation formula
+3. Store calculated weights in an appropriate data format (adjacency matrix)
+4. Utilise Dijkstra's Algorithm to determine the shortest path
+5. Script shall be designed to function by providing a starting point (x, y) and an ending point (x\', y\')
 
 ChatGPT was used to provide various code snippets to work with.
 
