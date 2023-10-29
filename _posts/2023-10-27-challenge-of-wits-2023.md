@@ -66,6 +66,10 @@ APOCALYPSE used a 2D shape as their secret key.
 >
 >- Hint 1: Download `Logs.zip` from the challenge website.
 >- Hint 2: Write a script to solve the challenge.
+>
+>| Downloadable File | SHA256 checksum |
+>| --- | --- |
+>| [Logs.zip](/assets/img/challenge_of_wits_2023/Logs.zip) | 1de1f6e7de75cf3cb62898b0186753b4464c7d26ecff662e1b61343111b7cffb |
 
 ### SOLUTION
 
@@ -155,6 +159,10 @@ The secret key presents itself as `A`.
 >Examples:
 >- Taking a step from (0, 0) which has an elevation of 7.9 to (1, 1) which has an elevation of 8.5 will cost (2^0.5)+6, or roughly 7.41 units.
 >- Taking a step from (0, 0) which has an elevation of 7.9 to (0, -1) which has an elevation of 7.5 will cost 1 unit.
+>
+>| Downloadable File | SHA256 checksum |
+>| --- | --- |
+>| [Elevation.csv](/assets/img/challenge_of_wits_2023/Elevation.csv) | 3d5fb42c3feaa06efafe3f050337257ae877c57c9306599021d0b60dcacce9bc |
 
 ### SOLUTION
 
