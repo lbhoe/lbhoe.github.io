@@ -78,9 +78,9 @@ Checked the logs and they were mostly gibberish. The only field that stood out w
 Used ChatGPT with the following prompts to produce the required python script.
 
 ```
-I need help writing a python script
-Given multiple xml files, I need to extract the x,y coordinates from <location>x,y</location>
-Instead of printing the coordinates, plot them on a graph
+I need help writing a python script.
+Given multiple xml files, I need to extract the x,y coordinates from <location>x,y</location>.
+Instead of printing the coordinates, plot them on a graph.
 ```
 
 ```python
