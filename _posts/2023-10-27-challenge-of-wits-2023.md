@@ -1,7 +1,7 @@
 ---
 title: "Challenge of Wits 2023"
 date: 2023-10-28 02:30:00 +0800
-categories: [Problem Solving]
+categories: [Problem Solving, Challenge of Wits 2023]
 tags: [data]
 image:
     path: /assets/img/challenge_of_wits_2023/challenge_of_wits_2023_banner.png
