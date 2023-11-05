@@ -6,7 +6,7 @@ categories:
   - "Cyber Apocalypse 2023"
 tags: [crypto]
 image:
-    path: /assets/img/cyber_apocalyse_2023/cyber_apocalypse_2023_banner.png
+    path: /assets/img/cyber_apocalpyse_2023/cyber_apocalypse_2023_banner.png
 ---
 
 Decided to try some `very easy` difficulty cryptography challenges on Cyber Apocalyse 2023 organised by Hack The Box (HTB).
