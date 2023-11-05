@@ -13,10 +13,10 @@ Decided to try some `very easy` difficulty cryptography challenges on Cyber Apoc
 
 ## Ancient Encodings
 
-> Your initialization sequence requires loading various programs to gain the necessary knowledge and skills for your journey. Your first task is to learn the ancient encodings used by the aliens in their communication.
-> | Downloadable File | SHA256 checksum |
-> | --- | --- |
-> | [crypto_ancient_encodings.zip](/assets/img/cyber_apocalypse_2023/crypto_ancient_encodings.zip) | 9b45c2d7a3b3835ca4966ebcf4b8a999e46cf2dc666e5b4dc919bd92d5996379 |
+>Your initialization sequence requires loading various programs to gain the necessary knowledge and skills for your journey. Your first task is to learn the ancient encodings used by the aliens in their communication.
+>| Downloadable File | SHA256 checksum |
+>| --- | --- |
+>| [crypto_ancient_encodings.zip](/assets/img/cyber_apocalypse_2023/crypto_ancient_encodings.zip) | 9b45c2d7a3b3835ca4966ebcf4b8a999e46cf2dc666e5b4dc919bd92d5996379 |
 
 ### Solution
 
@@ -60,10 +60,10 @@ b'HTB{1n_y0ur_j0urn3y_y0u_wi1l_se3_th15_enc0d1ngs_ev3rywher3}'
 
 ## Small StEps
 
-> As you continue your journey, you must learn about the encryption method the aliens used to secure their communication from eavesdroppers. The engineering team has designed a challenge that emulates the exact parameters of the aliens' encryption system, complete with instructions and a code snippet to connect to a mock alien server. Your task is to break it.
-> | Downloadable File | SHA256 checksum |
-> | --- | --- |
-> | [crypto_small_steps.zip](/assets/img/cyber_apocalypse_2023/crypto_small_steps.zip) | 81cff3a0df3eec1137ee73b8885fc186f68f9b92b62227840f9187619a82e39c |
+>As you continue your journey, you must learn about the encryption method the aliens used to secure their communication from eavesdroppers. The engineering team has designed a challenge that emulates the exact parameters of the aliens' encryption system, complete with instructions and a code snippet to connect to a mock alien server. Your task is to break it.
+>| Downloadable File | SHA256 checksum |
+>| --- | --- |
+>| [crypto_small_steps.zip](/assets/img/cyber_apocalypse_2023/crypto_small_steps.zip) | 81cff3a0df3eec1137ee73b8885fc186f68f9b92b62227840f9187619a82e39c |
 
 ### Solution
 
@@ -100,7 +100,7 @@ encrypted flag:
 
 Used RsaCtfTool to solve. Reference: <https://github.com/RsaCtfTool/RsaCtfTool>
 
-```python
+```bash
 $ python RsaCtfTool.py -n 7123985100617323664645174986225121094324414856672926376473228164015644277173979816221519172436493463188178653211572222750286328836858766812354896656252193 -e 3 --uncipher 70407336670535933819674104208890254240063781538460394662998902860952366439176467447947737680952277637330523818962104685553250402512989897886053
 ```
 
@@ -112,10 +112,10 @@ $ python RsaCtfTool.py -n 712398510061732366464517498622512109432441485667292637
 
 ## Perfect Synchronization
 
-> The final stage of your initialization sequence is mastering cutting-edge technology tools that can be life-changing. One of these tools is quipqiup, an automated tool for frequency analysis and breaking substitution ciphers. This is the ultimate challenge, simulating the use of AES encryption to protect a message. Can you break it?
-> | Downloadable File | SHA256 checksum |
-> | --- | --- |
-> | [crypto_perfect_synchronization.zip](/assets/img/cyber_apocalypse_2023/crypto_perfect_synchronization.zip) | fbd1224b93d9ec01d5e6464f70b11e58f396ae73803a4d563d35f498d524ef67 |
+>The final stage of your initialization sequence is mastering cutting-edge technology tools that can be life-changing. One of these tools is quipqiup, an automated tool for frequency analysis and breaking substitution ciphers. This is the ultimate challenge, simulating the use of AES encryption to protect a message. Can you break it?
+>| Downloadable File | SHA256 checksum |
+>| --- | --- |
+>| [crypto_perfect_synchronization.zip](/assets/img/cyber_apocalypse_2023/crypto_perfect_synchronization.zip) | fbd1224b93d9ec01d5e6464f70b11e58f396ae73803a4d563d35f498d524ef67 |
 
 ### Solution
 
@@ -259,9 +259,7 @@ print(original_words)
 
 Obtained the following output.
 
-```
 FREQUENCY ANALYSIS IS BASED ON THE FACT THAT IN ANY GIVEN STRETCH OF WRITTEN LANGUAGE CERTAIN LETTERS AND COMBINATIONS OF LETTERS OCCUR WITH VARYING FREQUENCIES MOREOVER THERE IS A CHARACTERISTIC DISTRIBUTION OF LETTERS THAT IS ROUGHLY THE SAME FOR ALMOST ALL SAMPLES OF THAT LANGUAGE IN CRYPTANALYSIS FREQUENCY ANALYSIS ALSO KNOWN AS COUNTING LETTERS IS THE STUDY OF THE FREQUENCY OF LETTERS OR GROUPS OF LETTERS IN A CIPHERTEXT THE METHOD IS USED AS AN AID TO BREAKING CLASSICAL CIPHERS FREQUENCY ANALYSIS REQUIRES ONLY A BASIC UNDERSTANDING OF THE STATISTICS OF THE PLAINTEXT LANGUAGE AND SOME PROBLEM SOLVING SKILLS AND IF PERFORMED BY HAND TOLERANCE FOR EXTENSIVE LETTER BOOKKEEPING DURING WORLD WAR II BOTH THE BRITISH AND THE AMERICANS RECRUITED CODEBREAKERS BY PLACING CROSSWORD PUZZLES IN MAJOR NEWSPAPERS AND RUNNING CONTESTS FOR WHO COULD SOLVE THEM THE FASTEST SEVERAL OF THE CIPHERS USED BY THE AXIS POWERS WERE BREAKABLE USING FREQUENCY ANALYSIS FOR EXAMPLE SOME OF THE CONSULAR CIPHERS USED BY THE JAPANESE MECHANICAL METHODS OF LETTER COUNTING AND STATISTICAL ANALYSIS GENERALLY HTB{A_SIMPLE_SUBSTITUTION_IS_WEAK} CARD TYPE MACHINERY WERE FIRST USED IN WORLD WAR II POSSIBLY BY THE US ARMYS SIS TODAY THE HARD WORK OF LETTER COUNTING AND ANALYSIS HAS BEEN REPLACED BY COMPUTER SOFTWARE WHICH CAN CARRY OUT SUCH ANALYSIS IN SECONDS WITH MODERN COMPUTING POWER CLASSICAL CIPHERS ARE UNLIKELY TO PROVIDE ANY REAL PROTECTION FOR CONFIDENTIAL DATA PUZZLE PUZZLE PUZZLE
-```
 
 ### Flag
 
