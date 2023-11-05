@@ -14,6 +14,7 @@ Decided to try some `very easy` difficulty cryptography challenges on Cyber Apoc
 ## Ancient Encodings
 
 >Your initialization sequence requires loading various programs to gain the necessary knowledge and skills for your journey. Your first task is to learn the ancient encodings used by the aliens in their communication.
+>
 >| Downloadable File | SHA256 checksum |
 >| --- | --- |
 >| [crypto_ancient_encodings.zip](/assets/img/cyber_apocalypse_2023/crypto_ancient_encodings.zip) | 9b45c2d7a3b3835ca4966ebcf4b8a999e46cf2dc666e5b4dc919bd92d5996379 |
@@ -61,6 +62,7 @@ b'HTB{1n_y0ur_j0urn3y_y0u_wi1l_se3_th15_enc0d1ngs_ev3rywher3}'
 ## Small StEps
 
 >As you continue your journey, you must learn about the encryption method the aliens used to secure their communication from eavesdroppers. The engineering team has designed a challenge that emulates the exact parameters of the aliens' encryption system, complete with instructions and a code snippet to connect to a mock alien server. Your task is to break it.
+>
 >| Downloadable File | SHA256 checksum |
 >| --- | --- |
 >| [crypto_small_steps.zip](/assets/img/cyber_apocalypse_2023/crypto_small_steps.zip) | 81cff3a0df3eec1137ee73b8885fc186f68f9b92b62227840f9187619a82e39c |
@@ -113,6 +115,7 @@ $ python RsaCtfTool.py -n 712398510061732366464517498622512109432441485667292637
 ## Perfect Synchronization
 
 >The final stage of your initialization sequence is mastering cutting-edge technology tools that can be life-changing. One of these tools is quipqiup, an automated tool for frequency analysis and breaking substitution ciphers. This is the ultimate challenge, simulating the use of AES encryption to protect a message. Can you break it?
+>
 >| Downloadable File | SHA256 checksum |
 >| --- | --- |
 >| [crypto_perfect_synchronization.zip](/assets/img/cyber_apocalypse_2023/crypto_perfect_synchronization.zip) | fbd1224b93d9ec01d5e6464f70b11e58f396ae73803a4d563d35f498d524ef67 |
