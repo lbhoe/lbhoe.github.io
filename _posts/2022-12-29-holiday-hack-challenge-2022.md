@@ -61,11 +61,11 @@ $ grep -E '.\.zip' *
 app(1).php:    saveAs(blob1, 'Ref_Sept24-2020.zip');
 ```
 
-Attackers used bad TLS certificates in this traffic. Which countries were they registered to? Submit the names of the countries in alphabetical order separated by a comma (Ex\: Norway, South Korea).
+Attackers used bad TLS certificates in this traffic. Which countries were they registered to? Submit the names of the countries in alphabetical order separated by a comma `(Ex: Norway, South Korea)`.
 
 `Israel, South Sudan`
 
-NetworkMiner (Files \> Filter for TlsCertificate \> Observed that \{C\: IL, SS, US\})
+NetworkMiner `(Files > Filter for TlsCertificate > Observed that {C: IL, SS, US})`
 
 ![image](/assets/img/holiday_hack_challenge_2022/905388acaa6b4020c6687d87fd0a143e906f6eab38ba6707267f41020cf6f9d3.png)  
 
@@ -125,7 +125,7 @@ The attacker ran the previous command against one file multiple times. What is t
 
 ![image](/assets/img/holiday_hack_challenge_2022/40c06b62f1c85c2427eb33e571e656a8464bf2df5d94fe371c6e45d51e4941e3.png)  
 
-Were any files deleted? (Yes/No)
+Were any files deleted? `(Yes/No)`
 
 `Yes`
 
@@ -134,7 +134,7 @@ Were any files deleted? (Yes/No)
 2022-12-24 11:05:42, ScriptBlockText: del .\Recipe.txt
 ```
 
-Was the original file (from question 2) deleted? (Yes/No)
+Was the original file `(from question 2)` deleted? `(Yes/No)`
 
 `No`
 
@@ -144,7 +144,7 @@ What is the Event ID of the logs that show the actual command lines the attacker
 
 ![image](/assets/img/holiday_hack_challenge_2022/82f870e9d79f2fb6c372f29ec4b3a25a6942c53301944e8a57ec12bafcf553f3.png)  
 
-Is the secret ingredient compromised (Yes/No)?
+Is the secret ingredient compromised `(Yes/No)`?
 
 `Yes`
 
@@ -176,7 +176,7 @@ $ ./rule_checker
 
 First, please create a Suricata rule to catch DNS lookups for adv.epostoday.uk.
 
-Whenever there's a match, the alert message (msg) should read Known bad DNS lookup, possible Dridex infection.
+Whenever there's a match, the alert message `(msg)` should read Known bad DNS lookup, possible Dridex infection.
 
 ```bash
 $ echo 'alert dns any any -> any any (msg:"Known bad DNS lookup, possible Dridex infection";dns.query;content:"epostoday";)' >> suricata.rules
@@ -184,11 +184,11 @@ $ echo 'alert dns any any -> any any (msg:"Known bad DNS lookup, possible Dridex
 
 First rule looks good!
 
-STINC thanks you for your work with that DNS record! In this PCAP, it points to 192.185.57.242.
+STINC thanks you for your work with that DNS record! In this PCAP, it points to `192.185.57.242`.
 
-Develop a Suricata rule that alerts whenever the infected IP address 192.185.57.242 communicates with internal systems over HTTP.
+Develop a Suricata rule that alerts whenever the infected IP address `192.185.57.242` communicates with internal systems over HTTP.
 
-When there's a match, the message (msg) should read Investigate suspicious connections, possible Dridex infection
+When there's a match, the message `(msg)` should read Investigate suspicious connections, possible Dridex infection
 
 ```bash
 $ echo 'alert http 192.185.57.242/32 any <> any any (msg:"Investigate suspicious connections, possible Dridex infection";sid:5551;)' >> suricata.rules
@@ -198,9 +198,9 @@ Second rule looks good!
 
 We heard that some naughty actors are using TLS certificates with a specific CN.
 
-Develop a Suricata rule to match and alert on an SSL certificate for heardbellith.Icanwepeh.nagoya.
+Develop a Suricata rule to match and alert on an SSL certificate for `heardbellith.Icanwepeh.nagoya`.
 
-When your rule matches, the message (msg) should read Investigate bad certificates, possible Dridex infection
+When your rule matches, the message `(msg)` should read Investigate bad certificates, possible Dridex infection
 
 ```bash
 $ echo 'alert tls any any -> any any (msg:"Investigate bad certificates, possible Dridex infection";tls.certs;content:"heardbellith.Icanwepeh.nagoya";sid:5552;)' >> suricata.rules
@@ -210,9 +210,9 @@ Third rule looks good!
 
 OK, one more to rule them all and in the darkness find them.
 
-Let's watch for one line from the JavaScript\: let byteCharacters = atob
+Let's watch for one line from the JavaScript: `let byteCharacters = atob`
 
-Oh, and that string might be GZip compressed - I hope that's OK!
+Oh, and that string might be GZip compressed \- I hope that's OK!
 
 Just in case they try this again, please alert on that HTTP data with message Suspicious JavaScript function, possible Dridex infection
 
