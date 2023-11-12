@@ -46,7 +46,7 @@ ANS: `Ref_Sept24-2020.zip`
 
 ![image](/assets/img/holiday_hack_challenge_2022/371e48bd03f989b7d6c44f9a40cc28f740dbbe862d26dcd3cbdb162a3e50949b.png)  
 
-Command Line Solution:
+Command Line Solution
 
 ![image](/assets/img/holiday_hack_challenge_2022/bd5dc5b3e465a591a55afdaf36f80c757686f65e5c4d80b4645d872581cb53c1.png)  
 
@@ -67,7 +67,7 @@ NetworkMiner (Files \> Filter for TlsCertificate \> Observed that \{C: IL, SS, U
 
 ![image](/assets/img/holiday_hack_challenge_2022/905388acaa6b4020c6687d87fd0a143e906f6eab38ba6707267f41020cf6f9d3.png)  
 
-Command Line Solution:
+Command Line Solution
 
 ![image](/assets/img/holiday_hack_challenge_2022/3621d5d40311e7e47ee19314ea07ca7d8f96e9dae7082330c68a9ea7191c8239.png)  
 
