@@ -3,7 +3,7 @@ title: "Cyber Apocalypse 2023"
 date: 2023-03-25 08:00:00 +0800
 categories:
   - "CTF"
-  - "Cyber Apocalypse 2023"
+  - "[2303] Cyber Apocalypse 2023"
 tags: [crypto]
 image:
     path: /assets/img/cyber_apocalypse_2023/cyber_apocalypse_2023_banner.png
