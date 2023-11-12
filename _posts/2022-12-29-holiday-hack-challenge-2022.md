@@ -22,7 +22,7 @@ Analyze a PCAP to identify malware, and then analyze logs and create IDS rules t
 
 There are objects in the PCAP file that can be exported by Wireshark and/or Tshark. What type of object can be exported from this PCAP?
 
-`http`
+ANS: `http`
 
 ![image](/assets/img/holiday_hack_challenge_2022/da191c7470f5a76bc811dbcd2b8d4dbd0f0866c66c0c605e5a2111a99a0067d6.png)  
 
