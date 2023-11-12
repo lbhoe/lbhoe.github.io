@@ -212,7 +212,7 @@ OK, one more to rule them all and in the darkness find them.
 
 Let's watch for one line from the JavaScript: `let byteCharacters = atob`
 
-Oh, and that string might be GZip compressed - I hope that's OK!
+Oh, and that string might be GZip compressed \- I hope that's OK!
 
 Just in case they try this again, please alert on that HTTP data with message Suspicious JavaScript function, possible Dridex infection
 
