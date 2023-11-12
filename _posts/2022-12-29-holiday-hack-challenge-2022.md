@@ -1,5 +1,5 @@
 ---
-title: "Holiday Hack Challenge 2022: 1) Recover the Tolkien Ring"
+title: "Holiday Hack Challenge 2022: 1 - Recover the Tolkien Ring"
 date: 2022-12-29 08:00:00 +0800
 categories:
   - "Problem Solving"
@@ -174,7 +174,7 @@ Run `rule_checker`
 $ ./rule_checker
 ```
 
-First, please create a Suricata rule to catch DNS lookups for adv.epostoday.uk.
+First, please create a Suricata rule to catch DNS lookups for `adv.epostoday.uk`.
 
 Whenever there's a match, the alert message `(msg)` should read Known bad DNS lookup, possible Dridex infection.
 
@@ -212,7 +212,7 @@ OK, one more to rule them all and in the darkness find them.
 
 Let's watch for one line from the JavaScript: `let byteCharacters = atob`
 
-Oh, and that string might be GZip compressed \- I hope that's OK!
+Oh, and that string might be GZip compressed - I hope that's OK!
 
 Just in case they try this again, please alert on that HTTP data with message Suspicious JavaScript function, possible Dridex infection
 
