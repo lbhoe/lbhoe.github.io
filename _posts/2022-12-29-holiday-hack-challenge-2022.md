@@ -1,6 +1,6 @@
 ---
 title: "Holiday Hack Challenge 2022: 1 - Recover the Tolkien Ring"
-date: 2023-12-29 08:00:00 +0800
+date: 2022-12-29 08:00:00 +0800
 categories:
   - "Problem Solving"
   - "Holiday Hack Challenge 2022"
