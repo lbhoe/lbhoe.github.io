@@ -182,9 +182,9 @@ Whenever there's a match, the alert message `(msg)` should read Known bad DNS lo
 $ echo 'alert dns any any -> any any (msg:"Known bad DNS lookup, possible Dridex infection";dns.query;content:"epostoday";)' >> suricata.rules
 ```
 
-First rule looks good!
+First rule looks good\!
 
-STINC thanks you for your work with that DNS record! In this PCAP, it points to `192.185.57.242`.
+STINC thanks you for your work with that DNS record\! In this PCAP, it points to `192.185.57.242`.
 
 Develop a Suricata rule that alerts whenever the infected IP address `192.185.57.242` communicates with internal systems over HTTP.
 
@@ -194,7 +194,7 @@ When there's a match, the message `(msg)` should read Investigate suspicious con
 $ echo 'alert http 192.185.57.242/32 any <> any any (msg:"Investigate suspicious connections, possible Dridex infection";sid:5551;)' >> suricata.rules
 ```
 
-Second rule looks good!
+Second rule looks good\!
 
 We heard that some naughty actors are using TLS certificates with a specific CN.
 
@@ -206,13 +206,13 @@ When your rule matches, the message `(msg)` should read Investigate bad certific
 $ echo 'alert tls any any -> any any (msg:"Investigate bad certificates, possible Dridex infection";tls.certs;content:"heardbellith.Icanwepeh.nagoya";sid:5552;)' >> suricata.rules
 ```
 
-Third rule looks good!
+Third rule looks good\!
 
 OK, one more to rule them all and in the darkness find them.
 
 Let's watch for one line from the JavaScript: `let byteCharacters = atob`
 
-Oh, and that string might be GZip compressed \- I hope that's OK!
+Oh, and that string might be GZip compressed \- I hope that's OK\!
 
 Just in case they try this again, please alert on that HTTP data with message Suspicious JavaScript function, possible Dridex infection
 
