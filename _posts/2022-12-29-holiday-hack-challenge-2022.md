@@ -8,9 +8,9 @@ tags: [forensics]
 image:
     path: /assets/img/holiday_hack_challenge_2022/holiday_hack_challenge_2022_banner.png
 ---
->**Network Security**
->
->Analyze a PCAP to identify malware, and then analyze logs and create IDS rules to detect such attacks.
+**Network Security**
+
+Analyze a PCAP to identify malware, and then analyze logs and create IDS rules to detect such attacks.
 
 ## Wireshark Practice
 
